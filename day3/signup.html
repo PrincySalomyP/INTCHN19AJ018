@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<script type="text/javascript" src="validate.js"></script>  
+<TITLE>
+Welcome to Cognizant
+</TITLE>
+</HEAD>
+<BODY>
+<H1>Personal details</H1>
+<form name = "empform"  action="./action.jsp" onsubmit="return validate()">
+<LABEL><div style="width: 7000px ">Name</LABEL>
+<INPUT TYPE = "TEXT" NAME="Name">
+<BR>
+<LABEL>Gender</LABEL>
+<INPUT TYPE = "RADIO" NAME="Gender" VALUE="Male" checked>Male
+<INPUT TYPE = "RADIO" NAME="Gender" VALUE="FeMale">Female
+<BR>
+<LABEL>Home Town</LABEL>
+<select name = "Home Town">
+            <option value = "New Delhi" selected>New Delhi</option>
+            <option value = "Mumbai">Mumbai</option>
+	   <option value = "Kolkata">Kolkata</option>
+            <option value = "Chennai">Chennai</option>
+	    <option value = "Hyderabad">Hyderabad</option>
+</select>
+<BR>
+<BR>
+<LABEL>Address</LABEL>
+<textarea rows = "3" cols = "30" name = "address">
+</textarea>
+<BR>
+<LABEL>Skills </LABEL>
+<INPUT TYPE = "CHECKBOX" NAME="Java">Java
+<INPUT TYPE = "CHECKBOX" NAME="HTML">HTML
+<INPUT TYPE = "CHECKBOX" NAME="Oracle">Oracle
+<BR>
+<LABEL>Password</LABEL>
+<INPUT TYPE = "PASSWORD" NAME ="Password">
+<BR>
+<INPUT TYPE = "SUBMIT" NAME = "SUBMIT" value = "submit"  />
+</form>
+</BODY>
+</HTML>

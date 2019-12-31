@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function check() {
+   
+   var str = "Hello world!";
+   var res = str.substring(1, 4);
+   alert('substring:'+res);
+
+ 
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.jsp" onsubmit="return check()" method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

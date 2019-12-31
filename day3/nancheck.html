@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function check() {
+   
+      var num = document.forms[myForm][fname].value;
+      alert(num);
+ 
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.jsp" onsubmit="return check()" method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

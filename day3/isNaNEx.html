@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>Example of isNaN Function</title>
+</head>
+<body>
+<h2>
+Javascript number validation example
+</h2>
+<p>Please enter a number between 1 and 10:</p>
+<input id = "numb">
+<button type = "button" onclick="validate()">Submit</button>
+<p id ="demo"></p>
+<script>
+function validate(){
+
+ var x ,text ;
+  // x varaible is used to store the value of number
+  x = document.getElementById("numb").value;  
+  if(isNaN(x) || x<1 || x >10){
+     text = "Input not valid";
+  }
+ else {
+   text = "Input is valid";
+  
+}
+ document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
