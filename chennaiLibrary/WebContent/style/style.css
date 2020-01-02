@@ -1,0 +1,49 @@
+.header {
+	margin: 0;
+	min-height: 70px;
+	color: white;
+	background-color: #004080;
+	top: 0;
+	width: 100%;
+}
+
+.header-itemleft {
+	padding-left: 25px;
+	float: left;
+}
+
+.header-itemright {
+	padding-right: 80px;
+	float: right;
+        	
+}
+
+
+
+
+.body-main {
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+.body-main th {
+	font-weight: bold;
+}
+
+.body-main th, td {
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+
+.footer {
+	margin: 0;
+	min-height: 25px;
+	color: black;
+	background-color: #a6a6a6;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	font-family: arial;
+}
